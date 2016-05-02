@@ -31,7 +31,7 @@ class crawler:
                         outputFile.write('\n\n')
                     if(link['class'][0] == 'bestAnswer_content'):
                         outputFile.write('答案分析： %s\n' % link.get_text().strip())
-            outputFile.write('-----------------------------------------------------------------------\n')
+            outputFile.write('---------------------------------------------------------------------------------------------------------------------------------------------\n')
         outputFile.close()
                 
 
